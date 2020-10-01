@@ -1,0 +1,156 @@
+/* General css*/
+
+body{
+    
+    padding-top:50px;
+    padding-bottom:30px;
+    
+    color:#333;
+}
+h1{
+    font-size:36px;
+    
+}
+h2{
+    font-size:20px;
+    
+}
+h1,h2{
+    
+    padding:20px,10px;
+    font-weight:normal;
+    
+}
+p{
+    line-height: 21px;
+    font-weight:normal;
+    font-family:arial,sans-serif;
+    font-size:16px;
+    
+}
+.main-container{
+    width:100;
+    margin:0,auto;
+}
+.single-row{
+    
+    width:100%
+    padding-left:30px;
+    
+    
+}
+.left-col {
+    
+    width:40%;
+}
+.left-col img{
+    width:50%;
+    border-radius:10px;
+}
+.right-col{
+    width:50%;
+    padding-right:15px;
+}
+.left-col,.right-col{
+    float:left;
+    padding-left:20px;
+    padding-right:15px;
+}
+.header{
+     background-image: url("../images/hitman.jpg");
+    
+}
+
+.clear-fix{
+    clear:both;
+}
+.col-1{
+    width:30%;
+}
+.col-2{
+    width:30%;
+}
+.col-3{
+    width:30%;
+}
+.col-1,.col-2,.col-3{
+    float:left;
+    padding-left:15px;
+    padding-right:15px;
+}
+.col-1 img{
+    width:300px;
+    border-radius:4px;
+}
+
+.col-2 img{
+    width:300px;
+    border-radius:4px;
+}
+
+.col-3 img{
+    width:300px;
+    border-radius:4px;
+}
+hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border:0;
+    border-top:1px solid #eee;
+}
+.btn{
+    padding:12px 18px;
+    background-color:red;
+    line-height:21px;
+    color:white;
+    text-decoration:none;
+    text-transform: uppercase;
+    border-radius:6px;
+    margin-top:15px;
+    margin-bottom:15px;
+    
+}
+.info-btn{
+    padding:8px 12px;
+    background-color:floralwhite;
+    border-radius:4px;
+    color:black;
+    
+    font-size:14px;
+    line-height:25px;
+    border:1px solid red;
+    cursor:pointer;
+    display:inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+    
+    
+    text-decoration:none;
+    
+}
+.info-btn:hover{
+    color:white;
+    background-color:red;
+    border:none;
+    transition-duration:1s;
+    
+    
+}
+.btn:hover{
+    color:red;
+    transition-duration: 1s;
+    background-color: white;
+}
+.row-footer{
+    padding-top:40px;
+    padding-bottom:40px;
+    margin-top:40px;
+    
+    background-color: antiquewhite;
+}
+.col-footer{
+    
+    padding-left: 15px;
+    padding-right:15px;
+}
